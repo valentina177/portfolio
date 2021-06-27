@@ -1,0 +1,281 @@
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  /*first value for top/bottom, second valuefor left/right*/
+}
+
+.header {
+  background-color: rgb(196, 174, 221);
+  padding: 2em;
+}
+
+nav a {
+  text-decoration: overline;
+  color: #fff;
+}
+
+nav li {
+  display: inline;
+  padding: 0 0.5em;
+}
+
+nav ul {
+  text-align: left;
+}
+nav  a:hover{
+  color: rgb(247, 220, 79);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  padding: 2em;
+}
+
+h1, h2, h3, h4 {
+  font-size: 2.5em;
+  padding: 0.3em;
+  text-align: center;
+  color: rgb(247, 220, 79);
+  font-weight: bold;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+.container3 ul {
+  font-size: 1.1em;
+  padding: 0;
+  list-style-type: none;
+text-decoration:underline;
+  color: white;
+  position: relative;
+  margin-left: 0.5em;
+}
+
+.container3 a {
+  font-size: 1.1em;
+  padding: 0;
+  list-style-type: none;
+  text-decoration:underline;
+  color: white;
+  position: relative;
+  margin-left: 35em;
+}
+
+.main-title {
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+}
+
+p {
+  padding: 0.5em;
+  text-align: center;
+  margin: 0.5em;
+}
+
+div.bio {
+  margin: 2em;
+  line-height: 115%;
+  text-align: center;
+  width: 45em;
+  position: relative;
+  margin-left: 23em;
+  margin-bottom: 3em;
+
+}
+
+.container1 {
+  background-color: rgb(241, 240, 240);
+  padding: 4em;
+  text-align: justify;
+}
+
+button {
+  background-color: rgb(196, 174, 221);
+  color: white;
+  display: block;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1em;
+  transition-duration: 0.5s;
+  box-shadow: 2px 11px 20px 5px #d9d9d9;
+  position: relative;
+  margin-left: 39em;
+}
+
+button:hover {
+  background-color: rgb(102, 56, 152);
+  color: white;
+}
+
+.container3 {
+  background-color: rgb(196, 174, 221);
+  padding: 4em;
+  text-align: justify;
+}
+
+/*comments*/
+.layout_card {
+  display: grid;
+  grid-template-rows: 42% 30% 25%;
+  grid-template-columns: 22% 22% 25%;
+  grid-row-gap: 1em;
+  grid-column-gap: 0.5em;
+  justify-content: center;
+  align-content: start;
+}
+
+.card_image {
+  width: 20%;
+  flex: 0 1 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card_image img:hover {
+  opacity: 0.5;
+}
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(196, 174, 221); /* Black fallback color */
+  background-color: rgb(196, 174, 221); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  margin: 2em;
+  width: 50%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 40px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 40px;
+}
+
+.html {width: 90%; background-color: #7D3C98  ;}                   
+.css {width: 75%; background-color: #8E44AD ;}
+.js {width: 65%; background-color: #A569BD;}
+.php {width: 95%; background-color: #7D3C98;}
+
+
+hr.line {
+  width: 80%;
+  margin: 2em;
+  border: 1px solid white;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+span{
+    width: 13em;
+            height: 3em;
+            background-color: rgb(196, 174, 221);
+            color: white;
+            display: block;
+            padding: 15px 32px;
+            border: none;
+            border-radius: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            cursor: pointer;
+            font-size: 1em;
+            transition-duration: 0.5s;
+            box-shadow: 2px 11px 20px 5px #d9d9d9;
+            position: relative;
+            margin-left: 39em;
+}
+
+span:hover {
+  background-color: rgb(102, 56, 152);
+  color: white;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/*@media only screen and (min-width: 400px) {
+
+  .layout_card {
+    display: inline-block;
+      min-width: 12em;
+     margin-left: 20em;
+ justify-content: center;
+  }
+
+
+  .card_image {
+    width: 10%;
+    flex: 0 1 auto;
+
+  }
+
+
+button{
+  margin-left: 20em;}
+
+
+}/*closing @media query*/

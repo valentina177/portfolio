@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Musical Game</title>
+  <script type="text/javascript" src="gallery.js"></script>
+
+
+  <style>
+    /* Type CSS code here */
+
+    #wrapper {
+      max-width: 1200px;
+      margin: 10em auto;
+
+    }
+
+
+    .flex-itemlead{
+      position: absolute;
+      right: 6em;
+    }
+
+    h1 img {
+      width: 1.2em;
+      position: absolute;
+      right: 6em;
+      top: 1em;
+
+    }
+
+    h1 img:hover {
+      opacity: 0.5;
+    }
+
+
+
+    .flex-item {
+      width: 200px;
+
+      padding: 5px;
+      border-radius: 10px;
+      margin: 0.5em;
+      flex: 1.8 0 0;
+    }
+
+    .lead {
+      border: none;
+      flex: 1.7 0 0;
+    }
+
+    .img-responsive {
+      width: 100%;
+    }
+
+    .lead p {
+      font-size: larger;
+    }
+
+    .flex-container {
+      display: flex;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    a {
+      font-size: 1.2em;
+      list-style-type: none;
+      text-decoration: none;
+      color: rgb(102, 56, 152);
+    }
+
+    a:active {
+      list-style-type: none;
+      text-decoration: none;
+      color: rgb(102, 56, 152);
+    }
+
+    a:hover {
+
+      color: rgb(196, 174, 221);
+    }
+
+    .slide-back{
+        position:absolute;
+        left:12em;
+        top: 23em;
+
+    }
+
+    .slide-next{
+    position: absolute;
+    left:39em;
+    top: 23em;
+
+}
+
+.slide-back img{
+  width: 2em;
+}
+.slide-next img{
+    width: 2em;
+
+}
+
+.slide-back img:hover {
+  opacity: 0.6;
+}
+
+.slide-next img:hover {
+  opacity: 0.6;
+}
+
+  </style>
+
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <div class="flex-container">
+      <h1><a href="../../index.html"><img src="images/close.svg" alt="logo"></a></h1>
+      <div class="flex-item card1">
+
+
+        <div class="container">
+          <div class="slideshow">
+            <a href="#" class="slide-back" onclick="slideshowBack(); return false;">
+              <img src="images/arrow_back.svg" alt="back">
+            </a>
+            <!--  Place the first image here  -->
+            <img src="images/game1.jpg" alt="placeholder" class="img-responsive" id="slide_show">
+            <a href="#" class="slide-next" onclick="slideshowUp(); return false;">
+              <img src="images/arrow_forward.svg" alt="next"></a>
+          </div>
+        </div> <!-- #container -->
+      </div>
+
+
+      <div class="flex-item lead">
+        <h1>Musical Game:</h1>
+        <h2>2019</h2>
+
+        <h3>Software : HTML/CSS, P5.js, Audacity</h3>
+
+        <p> The user can interact with all the elements on this web-based illustration created with p5.js. The goal of this project was to convey how the environment feels with and without food, as well as music. That is why, when there is food, the
+          music is more cheerful than when there is not.
+        </p>
+
+        <a href="gameweb/index.html">Go to the musical game</a>
+      </div>
+
+
+
+    </div> <!-- closing .flex-container -->
+  </div> <!-- closing #wrapper -->
+</body>
+
+</html>

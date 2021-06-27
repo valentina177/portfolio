@@ -1,0 +1,59 @@
+body{
+	background: white;
+
+	color:black;
+	font-family: Times New Roman;
+	font-size: 20px;
+
+	text-align: center;
+
+
+
+}
+ p, a{
+	font-size: 1.2em;
+}
+a{ text-decoration: none;
+          font-family:Times New Roman;
+          font-size:26px;
+          padding-top: 30px;
+          padding-bottom:20px;
+
+
+	color: black;
+	transition: color 300ms  ease-in;
+}
+h1{
+	color: rgb(196, 174, 221);
+}
+li{display: inline;
+          margin:10px 15px; }
+
+a:hover{color: #ff0092;}
+
+a img {width: 2em;
+position: absolute;
+right: 6em;
+top: 1em;
+
+}
+
+a img:hover {
+opacity: 0.5;
+}
+
+img{ max-width: 100% }
+
+#container{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.link{list-style: none;
+
+
+}
+
+ul{
+	border: 2px solid white;
+}

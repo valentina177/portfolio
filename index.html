@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="overlay.js"></script>
+</head>
+
+<body>
+  <!-- page starts -->
+  <div id="wrapper"> </div>
+
+  <!-- Header -->
+
+  <div class="header">
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li><a href="#aboutme"> About Me</a></li>
+        <li><a href="#projects"> Projects</a></li>
+        <li><a href="#contact"> Contact</a></li>
+      </ul>
+    </nav>
+    <img src="images/LOGOVGL.png" alt="logo" class="center">
+    <h1>My Portfolio</h1>
+    <p class="main-title">VALENTINA GARCIA LOAIZA</p>
+    <p style="color:white">Graphic Designer/ Web Developer</p>
+
+  </div>
+
+
+
+  <!-- First Grid -->
+  <div class="container1">
+
+    <h2>About Me</h2>
+    <a id="aboutme"></a>
+    <div class="bio">My name is Valentina Garcia Loaiza. I am a student of media programming and design at the Borough of Manhattan Community College (BMCC). Working in the fields of graphic design, typography, front-end web design, 2D animation, and
+      UX/UI design excites me. You can see some of my recent work on this page. Welcome to my portfolio!</div>
+
+
+    <!--Overlay open-->
+    <div id="myNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <!-- Overlay content -->
+      <h1 style=" text-align: left; padding: 1em;"> Technical Skills </h1>
+
+      <p style="color:white; text-align: left; margin: 2em;"> Adobe Illustrator, Photoshop, InDesign, Adobe XD, Figma, Premiere Pro, Animate, and After Effects</p>
+      <div class="container">
+        <div class="skills html">95%</div>
+      </div>
+
+      <p style="color:white; text-align: left; margin: 2em;">WordPress, Sublime Text, Java, and Atom</p>
+      <div class="container">
+        <div class="skills css">75%</div>
+      </div>
+
+      <p style="color:white; text-align: left; margin: 2em;">Chroma Key Green video editing skills </p>
+      <div class="container">
+        <div class="skills js">65%</div>
+      </div>
+
+      <hr class="line">
+      <h1 style=" text-align: left; padding: 1em; "> Language Skills </h1>
+      <p style="color:white; text-align: left; margin: 2em;">Spanish</p>
+      <div class="container">
+        <div class="skills php">95%</div>
+      </div>
+
+
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()">View My Skills</span>
+
+    <!--Overlay close-->
+
+  </div>
+
+
+
+  <!-- Second Grid -->
+  <div class="container2">
+    <h3>Projects</h3>
+    <a id="projects"></a>
+    <div class="layout_card">
+      <div class="card_image">
+        <a href="projects/labels/labels.html" class="card-link">
+          <img src="images/labels.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="card_image">
+        <a href="projects/font/font.html" class="card-link">
+          <img src="images/font.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="card_image">
+        <a href="projects/game/game.html" class="card-link">
+          <img src="images/game.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="card_image">
+        <a href="projects/app/app.html" class="card-link">
+          <img src="images/app.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="card_image">
+        <a href="projects/map/map.html" class="card-link">
+          <img src="images/map.jpg" alt="">
+        </a>
+      </div>
+
+      <div class="card_image">
+        <a href="projects/animation/animation.html" class="card-link">
+          <img src="images/animation.jpg" alt="">
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Third Grid -->
+  <div class="container3">
+    <h4>Contact</h4>
+    <a id="contact"></a>
+    <h5>Email</h5>
+    <a href="mailto:valentinagarcialoaiza@gmail.com "> Click here to send me an email!</a>
+    <h5>Social Media</h5>
+    <ul class="contactlink" style="color:white;">
+      <li><a href="  https://www.linkedin.com/in/valentina-garcia-loaiza-2977411a1/">Linkedin</a></li>
+      <li><a href="https://www.instagram.com/valen_gl_/">Instagram</a></li>
+    </ul>
+
+
+  </div>
+
+</body>
+
+</html>
