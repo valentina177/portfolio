@@ -4,7 +4,7 @@ var num = 0;
 imgArray = [
   ['images/app1.jpg'],
   ['images/app2.jpg'],
-  ['images/app3.png'],
+  ['images/app3.jpg'],
 
 ]
 
