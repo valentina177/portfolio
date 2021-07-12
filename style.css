@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
   font-size: 2.5em;
   padding: 0.3em;
   text-align: center;
-  color: rgb(247, 220, 79);
+  color: #59357E;
   font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(102, 56, 152);
+  background-color: #59357E;
   color: white;
 }
 
@@ -187,7 +187,7 @@ li {
   border-radius: 40px;
 }
 
-.html {width: 90%; background-color: #7D3C98  ;}                   
+.html {width: 90%; background-color: #7D3C98  ;}
 .css {width: 75%; background-color: #8E44AD ;}
 .js {width: 65%; background-color: #A569BD;}
 .php {width: 95%; background-color: #7D3C98;}
@@ -243,7 +243,7 @@ span{
 }
 
 span:hover {
-  background-color: rgb(102, 56, 152);
+  background-color: #59357E;
   color: white;
 }
 
@@ -255,6 +255,8 @@ span:hover {
     top: 15px;
     right: 35px;
   }
+
+
 }
 
 /*@media only screen and (min-width: 400px) {
