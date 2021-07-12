@@ -17,6 +17,7 @@ nav a {
 nav li {
   display: inline;
   padding: 0 0.5em;
+  font-size: 1.2em;
 }
 
 nav ul {
@@ -81,6 +82,7 @@ p {
   padding: 0.5em;
   text-align: center;
   margin: 0.5em;
+  font-size: 1.2em;
 }
 
 div.bio {
