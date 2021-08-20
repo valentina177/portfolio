@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="overlay.js"></script>
+  <script src="toggle-menu.js"></script>
 </head>
 
 <body>
@@ -19,11 +20,15 @@
   <div class="header">
     <!-- Navbar -->
     <nav>
-      <ul>
-        <li><a href="#aboutme"> About Me</a></li>
-        <li><a href="#projects"> Projects</a></li>
-        <li><a href="#contact"> Contact</a></li>
-      </ul>
+      <button class="toggle-menu" type="button" onclick="showMenu();"><img src="images/reorder.svg" alt="menu"><button>
+
+          <div class="nav-menu" id="menu">
+            <ul class="menubar">
+              <li><a href="#aboutme"> About Me</a></li>
+              <li><a href="#projects"> Projects</a></li>
+              <li><a href="#contact"> Contact</a></li>
+            </ul>
+          </div>
     </nav>
     <img src="images/LOGOVGL.png" alt="logo" class="center">
     <h1>My Portfolio</h1>
@@ -134,15 +139,11 @@
   <!-- Third Grid -->
   <div class="container3">
     <h4>Contact</h4>
-    <a id="contact"></a>
-    <h5>Email</h5>
-    <a href="mailto:valentinagarcialoaiza@gmail.com "> Click here to send me an email!</a>
-    <h5>Social Media</h5>
-    <ul class="contactlink" style="color:white;">
-      <li><a href="  https://www.linkedin.com/in/valentina-garcia-loaiza-2977411a1/">Linkedin</a></li>
-      <li><a href="https://www.instagram.com/valen_gl_/">Instagram</a></li>
+    <ul id="contactlink">
+      <li><a href="mailto:valentinagarcialoaiza@gmail.com "><img src="images/email.svg" alt="poster"></a></li>
+      <li><a href="  https://www.linkedin.com/in/valentina-garcia-loaiza-2977411a1/"><img src="images/in.svg" alt="poster"></a></li>
+      <li><a href="https://www.instagram.com/valen_gl_/"><img src="images/ig.svg" alt="poster"></a></li>
     </ul>
-
 
   </div>
 
