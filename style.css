@@ -179,8 +179,13 @@ li {
 }
 
 .html {
-  width: 90%;
+  width: 95%;
   background-color: #7D3C98;
+}
+
+.js {
+  width: 85%;
+  background-color: #9C52BC;
 }
 
 .css {
@@ -188,10 +193,7 @@ li {
   background-color: #8E44AD;
 }
 
-.js {
-  width: 65%;
-  background-color: #9C52BC;
-}
+
 
 .php {
   width: 95%;
